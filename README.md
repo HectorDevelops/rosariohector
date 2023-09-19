@@ -1,6 +1,6 @@
 # Welcome to my Portfolio
 
-<img width="1065" alt="PortfolioMainPage" src="https://github.com/HectorDevelops/hectordevelops.io/assets/55935722/21841b30-52f8-4aaf-992f-41fe5cb5cb1f">
+<img width="1065" alt="PortfolioMainPage" src="https://github.com/HectorDevelops/hectordevelops.io/assets/55935722/64ba3bae-2d91-4796-a01d-76ecbb1e64f2">
 
 I'm a Full-Stack Developer with a focus on creating a user-friendly and responsive web applications. My repositories showcase my skills in HTML, CSS, Python, MERN, C#, and MySQL.
 
