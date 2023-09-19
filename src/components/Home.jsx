@@ -37,7 +37,7 @@ const Home = () => {
                 <AiOutlineLinkedin size={30} />
               </a>
               <a
-                href="https://drive.google.com/file/d/1Wwr8Tz5HXhE6SIhDacLlVLVM8w6Qo4EP/view?usp=share_link"
+                href="https://drive.google.com/file/d/15Ue6ESd0nSuniEOQxEEEUL4P3xKvhDnU/view?usp=share_link"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:scale-125"
