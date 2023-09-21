@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hectordevelops.io/static/css/main.a6f9a4ca.css",
-    "main.js": "/hectordevelops.io/static/js/main.f9eae4d6.js",
+    "main.css": "/hectordevelops.io/static/css/main.0101fc69.css",
+    "main.js": "/hectordevelops.io/static/js/main.7107c5a5.js",
     "static/media/ExchangeMainPage.png": "/hectordevelops.io/static/media/ExchangeMainPage.30e47927ca8509500bef.png",
     "static/media/heroImage.png": "/hectordevelops.io/static/media/heroImage.a29bc3bba435ab4499e9.png",
     "static/media/buffalostate.png": "/hectordevelops.io/static/media/buffalostate.4b433457492a20cca6be.png",
@@ -24,11 +24,11 @@
     "static/media/css.png": "/hectordevelops.io/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/express.png": "/hectordevelops.io/static/media/express.39a0f4c3d981885c64f8.png",
     "index.html": "/hectordevelops.io/index.html",
-    "main.a6f9a4ca.css.map": "/hectordevelops.io/static/css/main.a6f9a4ca.css.map",
-    "main.f9eae4d6.js.map": "/hectordevelops.io/static/js/main.f9eae4d6.js.map"
+    "main.0101fc69.css.map": "/hectordevelops.io/static/css/main.0101fc69.css.map",
+    "main.7107c5a5.js.map": "/hectordevelops.io/static/js/main.7107c5a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6f9a4ca.css",
-    "static/js/main.f9eae4d6.js"
+    "static/css/main.0101fc69.css",
+    "static/js/main.7107c5a5.js"
   ]
 }
