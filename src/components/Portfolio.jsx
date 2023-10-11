@@ -1,20 +1,28 @@
 import React from "react";
-import ExchangeMainPage from "../assets/portfolio/ExchangeMainPage.png";
-import PortfolioMainPage from "../assets/portfolio/PortfolioMainPage.png";
+import PortfolioGIF from "../assets/portfolio/PortfolioGIF.gif";
+import ExchangeGIF from "../assets/portfolio/ExchangeGIF.gif";
+import SearchableGIF from "../assets/portfolio/SearchableGIF.gif";
 
 const Portfolio = () => {
   const portfolioProjects = [
     {
       id: 1,
-      src: PortfolioMainPage,
-      demoLink: "https://github.com/HectorDevelops/Portfolio",
+      src: PortfolioGIF,
+      demoLink: "https://hectordevelops.github.io/hectordevelops.io/",
       codeLink: "https://github.com/HectorDevelops/Portfolio",
     },
     {
       id: 2,
-      src: ExchangeMainPage,
+      src: ExchangeGIF,
       demoLink: "https://youtu.be/d9WD5Huiwvk",
       codeLink: "https://github.com/HectorDevelops/Exchange/tree/main",
+    },
+    {
+      id: 3,
+      src: SearchableGIF,
+      demoLink: "https://www.Searchable.quest",
+      codeLink:
+        "https://github.com/HectorDevelops/Searchable/tree/main/Desktop",
     },
   ];
   return (
@@ -36,7 +44,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 h-60"
+                className="rounded-md duration-200 hover:scale-105 h-60 object-fit"
               />
               <div className="flex items-center justify-center">
                 <a href={demoLink} target="_blank" rel="noreferrer">
