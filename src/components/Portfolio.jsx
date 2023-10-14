@@ -40,7 +40,7 @@ const Portfolio = () => {
       technology2: "Flask",
       technology3: "MySQL",
       summary:
-        "This project employs Flask and CSS for styling. Exchange was built to provide a straightforward and user-friendly experience for individuals interested in buying or selling a vehicle. Additionally, I integrated the Google Maps API to offer customers a map-based search for nearby selling/purchasing locations by zip code.",
+        "This project uses Flask and CSS for design. Exchange was created to offer a simple and user-friendly experience for people looking to buy or sell a vehicle. I also added the Google Maps API to enable users to search for nearby buying or selling locations by entering their zip code.",
     },
     {
       id: 3,
@@ -53,7 +53,7 @@ const Portfolio = () => {
       technology2: "React",
       technology3: "API",
       summary:
-        "This project has been created to provide users a simple UI while leveraging the Unplash API to fetch for images all over the internet. This project also includes a useful accessibility Dark Mode feature.",
+        "Introducing an intuitive application designed to offer users a user-friendly interface while harnessing the power of the Unsplash API to seamlessly retrieve images from across the web. This project also incorporates a valuable Dark Mode accessibility feature, enhancing user experience.",
     },
   ];
   return (
