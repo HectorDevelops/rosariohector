@@ -45,7 +45,7 @@ const Home = () => {
                 <BiSolidFilePdf size={30} />
               </a>
               <a
-                href="https://github.com/HectorDevelops"
+                href="https://rosariohector.com"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:scale-125"

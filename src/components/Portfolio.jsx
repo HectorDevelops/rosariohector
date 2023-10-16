@@ -21,6 +21,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: PortfolioGIF,
+      title: "Portfolio",
       demoLink: "https://hectordevelops.github.io/hectordevelops.io/",
       codeLink: "https://github.com/HectorDevelops/hectordevelops.io",
       project: "Portfolio",
@@ -33,6 +34,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: ExchangeGIF,
+      title: "Exchange",
       demoLink: "https://youtu.be/d9WD5Huiwvk",
       codeLink: "https://github.com/HectorDevelops/Exchange/tree/main",
       project: "Exchange",
@@ -45,6 +47,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: Searchable,
+      title: "Searchable",
       demoLink: "https://searchable.quest",
       codeLink:
         "https://github.com/HectorDevelops/Searchable/tree/main/Desktop",
@@ -74,6 +77,7 @@ const Portfolio = () => {
             ({
               id,
               src,
+              title,
               demoLink,
               codeLink,
               project,
@@ -95,6 +99,9 @@ const Portfolio = () => {
                     alt=""
                     className="rounded-md duration-200 hover:scale-105 h-60"
                   />
+                  <div className="flex justify-center mt-5">
+                    <h1 className="text-lg">{title}</h1>
+                  </div>
                   <div className="flex items-center justify-center">
                     <a href={demoLink} target="_blank" rel="noreferrer">
                       <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
@@ -114,25 +121,27 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-                <div className="card card-back shadow-2xl shadow-black-600 rounded-lg h-80 text-sm p-2 ">
-                  <div className="mt-5 mb-1 text-gray-500">
-                    Name: <span className="text-white">{project}</span>
+                <div className="card card-back shadow-2xl shadow-black-600 rounded-lg h-[365px] text-sm p-2 flex items-center pb-5">
+                  <div className="">
+                    <div className="mt-5 mb-4 text-gray-500 ">
+                      Name: <span className="text-white">{project}</span>
+                    </div>
+                    <div className="mb-4 text-gray-500">
+                      Description: <span className="text-white">{summary}</span>
+                    </div>
+                    <div className="mb-7 flex items-center justify-between text-center mt-2">
+                      <h1 className="border-2 rounded-lg border-slate-600 w-20">
+                        {technology1}
+                      </h1>
+                      <h1 className="border-2 rounded-lg border-slate-600 w-20">
+                        {technology2}
+                      </h1>
+                      <h1 className="border-2 rounded-lg border-slate-600 w-20">
+                        {technology3}
+                      </h1>
+                    </div>
                   </div>
-                  <div className="mb-1 text-gray-500">
-                    Description: <span className="text-white">{summary}</span>
-                  </div>
-                  <div className="mb-1 flex items-center justify-between text-center mt-2">
-                    <h1 className="border-2 rounded-lg border-slate-600 w-20">
-                      {technology1}
-                    </h1>
-                    <h1 className="border-2 rounded-lg border-slate-600 w-20">
-                      {technology2}
-                    </h1>
-                    <h1 className="border-2 rounded-lg border-slate-600 w-20">
-                      {technology3}
-                    </h1>
-                  </div>
-                  <div className="flex items-center justify-center">
+                  <div className="flex items-center justify-center absolute inset-x-1 bottom-5">
                     <button
                       className="px-4 py-3 duration-200 hover:scale-105 bg-cyan-900 rounded-lg shadow-white flex items-center justify-center mt-2"
                       onClick={() => flipCard(id)}
