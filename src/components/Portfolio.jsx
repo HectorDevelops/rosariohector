@@ -22,7 +22,7 @@ const Portfolio = () => {
       id: 1,
       src: PortfolioGIF,
       title: "Portfolio",
-      demoLink: "https://hectordevelops.github.io/hectordevelops.io/",
+      demoLink: "https://rosariohector.com",
       codeLink: "https://github.com/HectorDevelops/hectordevelops.io",
       project: "Portfolio",
       technology1: "JavaScript",
@@ -62,17 +62,19 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-gray-800 to-gray-800 text-white"
+      className=" bg-gray-200 text-white h-[900px] border border-gray-200 "
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full pb-40">
-        <div className="pb-3 mt-40">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full pb-40 h-[700px] border border-white-500 mt-32 rounded-3xl shadow-xl bg-slate-100">
+        <div className="pb-3 py-44 text-black">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             Portfolio
           </p>
 
-          <p className="py-6">Here's some of the things i have worked on:</p>
+          <p className="py-6 text-xl">
+            Here are some of the things I have worked on:
+          </p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-black font-semibold">
           {portfolioProjects.map(
             ({
               id,
@@ -97,7 +99,7 @@ const Portfolio = () => {
                   <img
                     src={src}
                     alt=""
-                    className="rounded-md duration-200 hover:scale-105 h-60"
+                    className="rounded-md duration-200 hover:scale-105 h-60 "
                   />
                   <div className="flex justify-center mt-5">
                     <h1 className="text-lg">{title}</h1>
@@ -109,10 +111,10 @@ const Portfolio = () => {
                       </button>
                     </a>
                     <button
-                      className="w-1/2 px-4 py-3 m-2 duration-200 hover:scale-105 bg-cyan-900 rounded-lg shadow-white"
+                      className="w-1/2 px-4 py-3 m-2 duration-200 hover:scale-105 bg-green-600 rounded-lg shadow-white"
                       onClick={() => flipCard(id)}
                     >
-                      <FiInfo />
+                      <FiInfo size={24} className="text-white" />
                     </button>
                     <a href={codeLink} target="_blank" rel="noreferrer">
                       <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 ">
@@ -121,15 +123,16 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-                <div className="card card-back shadow-2xl shadow-black-600 rounded-lg h-[365px] text-sm p-2 flex items-center pb-5">
-                  <div className="">
-                    <div className="mt-5 mb-4 text-gray-500 ">
-                      Name: <span className="text-white">{project}</span>
+                <div className="card card-back shadow-2xl shadow-black-600 rounded-lg h-[365px] text-sm p-2 flex items-center">
+                  <div className=" mb-12">
+                    <div className="mb-4 text-black ">
+                      Name: <span className="text-gray-500">{project}</span>
                     </div>
-                    <div className="mb-4 text-gray-500">
-                      Description: <span className="text-white">{summary}</span>
+                    <div className="mb-4 text-black">
+                      Description:{" "}
+                      <span className="text-gray-500">{summary}</span>
                     </div>
-                    <div className="mb-7 flex items-center justify-between text-center mt-2">
+                    <div className=" flex items-center justify-between text-center ">
                       <h1 className="border-2 rounded-lg border-slate-600 w-20">
                         {technology1}
                       </h1>
@@ -143,10 +146,13 @@ const Portfolio = () => {
                   </div>
                   <div className="flex items-center justify-center absolute inset-x-1 bottom-5">
                     <button
-                      className="px-4 py-3 duration-200 hover:scale-105 bg-cyan-900 rounded-lg shadow-white flex items-center justify-center mt-2"
+                      className="px-4 py-3 duration-200 hover:scale-105 bg-green-600 rounded-lg shadow-white flex items-center justify-center mt-2"
                       onClick={() => flipCard(id)}
                     >
-                      <MdOutlineKeyboardBackspace />
+                      <MdOutlineKeyboardBackspace
+                        size={24}
+                        className="text-white"
+                      />
                     </button>
                   </div>
                 </div>
