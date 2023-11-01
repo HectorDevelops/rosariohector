@@ -95,7 +95,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="bg-gray-200  text-white flex flex-wrap h-full">
+    <div className="bg-gray-200  text-white flex flex-wrap ">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col flex-wrapjustify-center w-full text-black shadow-lg rounded-2xl mb-20 bg-slate-100">
         <div className="">
           <h2 className="text-4xl font-bold border-b-4 border-gray-500 inline">

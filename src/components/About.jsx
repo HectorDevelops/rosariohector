@@ -3,11 +3,8 @@ import hectorMemoji from "../assets/hectorMemoji.png";
 
 const About = () => {
   return (
-    <div
-      name="about"
-      className="w-full bg-gray-200 text-white h-[400px] flex-wrap "
-    >
-      <div className="max-w-screen-lg p-1 mx-auto w-full  shadow-xl rounded-3xl bg-slate-100">
+    <div name="about" className="w-full bg-gray-200 text-white flex-wrap ">
+      <div className="max-w-screen-lg p-1 mx-auto w-full  shadow-xl rounded-3xl bg-slate-100 ">
         <div className="">
           <div className="flex flex-wrap h-80 mt-6 place-content-center  text-black">
             <div className="pr-2">

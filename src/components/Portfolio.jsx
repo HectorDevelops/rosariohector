@@ -62,7 +62,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className=" bg-gray-200 text-white h-[900px] border border-gray-200 "
+      className=" bg-gray-200 text-white max-h-max border border-red-700 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full pb-40 h-[700px] border border-white-500 mt-32 rounded-3xl shadow-xl bg-slate-100">
         <div className="pb-3 py-44 text-black">
