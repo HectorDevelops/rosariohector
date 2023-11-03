@@ -111,7 +111,7 @@ const Portfolio = () => {
                       </button>
                     </a>
                     <button
-                      className="w-1/2 px-4 py-3 m-2 duration-200 hover:scale-105 bg-green-600 rounded-lg shadow-white"
+                      className="w-1/2 px-4 py-3 m-2 duration-200 hover:scale-105 bg-green-600 rounded-lg shadow-white dark:bg-orange-400"
                       onClick={() => flipCard(id)}
                     >
                       <FiInfo size={24} className="text-white" />
@@ -151,7 +151,7 @@ const Portfolio = () => {
                   </div>
                   <div className="flex items-center justify-center absolute inset-x-1 bottom-5">
                     <button
-                      className="px-4 py-3 duration-200 hover:scale-105 bg-green-600 rounded-lg shadow-white flex items-center justify-center mt-2"
+                      className="px-4 py-3 duration-200 hover:scale-105 bg-green-600 rounded-lg shadow-white flex items-center justify-center mt-2 dark:bg-orange-400"
                       onClick={() => flipCard(id)}
                     >
                       <MdOutlineKeyboardBackspace
