@@ -24,7 +24,10 @@ const Education = () => {
     },
   ];
   return (
-    <div className="bg-gray-200  text-white h-full pb-16 dark:bg-neutral-900">
+    <div
+      id="education"
+      className="bg-gray-200  text-white h-full pb-16 dark:bg-neutral-900"
+    >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white shadow-lg rounded-2xl bg-white dark:bg-neutral-800 dark:border border-gray-600">
         <div className="">
           <h2 className="text-4xl font-bold border-b-4 border-gray-500 inline text-black dark:text-white">

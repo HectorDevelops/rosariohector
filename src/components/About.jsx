@@ -1,7 +1,7 @@
 import React from "react";
 import hectorMemoji from "../assets/hectorMemoji.png";
 
-const About = ({ isDark }) => {
+const About = () => {
   return (
     <div
       name="about"
