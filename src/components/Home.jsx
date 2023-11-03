@@ -25,7 +25,7 @@ const Home = () => {
               <div className=" text-black flex justify-center gap-3 shadow-lg rounded-2xl h-14 pl-20 pr-20 dark:text-white">
                 <a
                   href="mailto:HectorDevelops@gmail.com"
-                  className="hover:scale-125 hover:text-green-600 mt-1"
+                  className="hover:scale-125 hover:text-green-600 mt-1 hover:dark:text-orange-400"
                 >
                   <MdMarkEmailRead size={40} />
                 </a>
@@ -33,7 +33,7 @@ const Home = () => {
                   href="https://www.linkedin.com/in/hrosario1/"
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:scale-125 hover:text-green-600 mt-1"
+                  className="hover:scale-125 hover:text-green-600 mt-1 hover:dark:text-orange-400"
                 >
                   <AiOutlineLinkedin size={40} />
                 </a>
@@ -41,7 +41,7 @@ const Home = () => {
                   href="https://drive.google.com/file/d/15Ue6ESd0nSuniEOQxEEEUL4P3xKvhDnU/view?usp=share_link"
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:scale-125 hover:text-green-600 mt-1"
+                  className="hover:scale-125 hover:text-green-600 mt-1 hover:dark:text-orange-400"
                 >
                   <BiSolidFilePdf size={40} />
                 </a>
@@ -49,7 +49,7 @@ const Home = () => {
                   href="https://github.com/HectorDevelops"
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:scale-125 hover:text-green-600 mt-1"
+                  className="hover:scale-125 hover:text-green-600 mt-1 hover:dark:text-orange-400"
                 >
                   <BiLogoGithub size={40} />
                 </a>

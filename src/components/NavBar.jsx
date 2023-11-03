@@ -35,7 +35,7 @@ const NavBar = () => {
           href="https://rosariohector.com"
           className="object-contain flex items-center"
         >
-          <h1 className="text-5xl font-anton hover:scale-105 bg-midnight hover:text-green-600 dark:text-gray-300 hover:dark:text-orange-500">
+          <h1 className="text-5xl font-anton hover:scale-105 bg-midnight hover:text-green-600 dark:text-gray-300 hover:dark:text-orange-400">
             Hector.
           </h1>
         </a>
