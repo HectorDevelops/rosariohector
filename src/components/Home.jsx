@@ -12,8 +12,8 @@ const Home = () => {
       name="home"
       className=" w-full h-screen bg-gray-200 flex items-center dark:bg-neutral-900"
     >
-      <div className="max-w-screen-lg p-1 mx-auto w-full flex flex-col items-center justify-center h-3/6 px-3 md:flex-row bg-white rounded-3xl shadow-lg dark:bg-neutral-800 dark:border dark:border-gray-600 ">
-        <div className="flex flex-col min-w-min pb-5 ">
+      <div className="max-w-screen-lg p-1 mx-auto w-full flex flex-col items-center justify-center px-3 md:flex-row bg-white rounded-3xl shadow-lg dark:bg-neutral-800 dark:border dark:border-gray-600 pt-20 pb-20">
+        <div className="flex flex-col min-w-min">
           <div className="pt-5 ">
             <h2 className="text-6xl sm:text-7xl font-bold text-black text-center dark:text-white">
               <span className="wave mr-2">👋🏽</span>Hi, I'm Hector.
@@ -21,7 +21,7 @@ const Home = () => {
             <p className="text-slate-600 py-4 max-w-xl text-center dark:text-gray-400">
               A Junior Full Stack Software Engineer based in San Jose, CA.
             </p>
-            <div className="flex justify-center ">
+            <div className="flex justify-center pb-4">
               <div className=" text-black flex justify-center gap-3 shadow-lg rounded-2xl h-14 pl-20 pr-20 dark:text-white">
                 <a
                   href="mailto:HectorDevelops@gmail.com"

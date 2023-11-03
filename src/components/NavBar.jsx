@@ -40,8 +40,8 @@ const NavBar = () => {
           </h1>
         </a>
       </div>
-      <div className=""></div>
-      <ul className="hidden md:flex ">
+      <DarkModeSwitch />
+      <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -52,7 +52,6 @@ const NavBar = () => {
             </Link>
           </li>
         ))}
-        <DarkModeSwitch />
       </ul>
 
       <div

@@ -74,7 +74,7 @@ const Portfolio = () => {
             Here are some of the things I have worked on:
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-black font-semibold dark:text-white">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-black font-semibold dark:text-white  justify-center">
           {portfolioProjects.map(
             ({
               id,
@@ -129,7 +129,7 @@ const Portfolio = () => {
                       Name:{" "}
                       <span className="text-gray-500  dark:text-gray-300">
                         {project}
-                      </span>     
+                      </span>
                     </div>
                     <div className="mb-4 text-black dark:text-white">
                       Description:{" "}
