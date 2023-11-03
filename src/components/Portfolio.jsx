@@ -62,10 +62,10 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className=" bg-gray-200 text-white max-h-max border border-red-700 "
+      className=" bg-gray-200 text-white max-h-max pb-32 dark:bg-neutral-900"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full pb-40 h-[700px] border border-white-500 mt-32 rounded-3xl shadow-xl bg-slate-100">
-        <div className="pb-3 py-44 text-black">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full pb-10 rounded-3xl shadow-lg bg-slate-100 dark:bg-neutral-800 dark:border dark:border-gray-600 ">
+        <div className=" pt-5 text-black dark:text-white">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             Portfolio
           </p>
@@ -74,7 +74,7 @@ const Portfolio = () => {
             Here are some of the things I have worked on:
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-black font-semibold">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-black font-semibold dark:text-white">
           {portfolioProjects.map(
             ({
               id,
@@ -125,14 +125,19 @@ const Portfolio = () => {
                 </div>
                 <div className="card card-back shadow-2xl shadow-black-600 rounded-lg h-[365px] text-sm p-2 flex items-center">
                   <div className=" mb-12">
-                    <div className="mb-4 text-black ">
-                      Name: <span className="text-gray-500">{project}</span>
+                    <div className="mb-4 text-black dark:text-white">
+                      Name:{" "}
+                      <span className="text-gray-500  dark:text-gray-300">
+                        {project}
+                      </span>     
                     </div>
-                    <div className="mb-4 text-black">
+                    <div className="mb-4 text-black dark:text-white">
                       Description:{" "}
-                      <span className="text-gray-500">{summary}</span>
+                      <span className="text-gray-500 dark:text-gray-300">
+                        {summary}
+                      </span>
                     </div>
-                    <div className=" flex items-center justify-between text-center ">
+                    <div className=" flex items-center justify-between text-center dark:text-gray-300">
                       <h1 className="border-2 rounded-lg border-slate-600 w-20">
                         {technology1}
                       </h1>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import DarkModeSwitch from "./DarkModeSwitch";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -28,26 +29,30 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-shark bg-slate-100 fixed z-50 shadow">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-shark bg-slate-100 fixed z-50 shadow dark:bg-neutral-800 dark:border-b dark:border-gray-600">
       <div>
-        <a href="https://rosariohector.com" className="object-contain">
-          <h1 className="text-5xl font-anton hover:scale-105 bg-midnight hover:text-green-600">
+        <a
+          href="https://rosariohector.com"
+          className="object-contain flex items-center"
+        >
+          <h1 className="text-5xl font-anton hover:scale-105 bg-midnight hover:text-green-600 dark:text-gray-300 hover:dark:text-orange-500">
             Hector.
           </h1>
         </a>
       </div>
-
-      <ul className="hidden md:flex">
+      <div className=""></div>
+      <ul className="hidden md:flex ">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize text-xl font-bold text-shark-900 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize text-xl font-bold text-shark-900 hover:scale-105 duration-200 dark:text-gray-300"
           >
             <Link to={link} smooth duration={600}>
               {link}
             </Link>
           </li>
         ))}
+        <DarkModeSwitch />
       </ul>
 
       <div
