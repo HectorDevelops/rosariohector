@@ -20,6 +20,7 @@ function App() {
       <Portfolio />
       <Skills />
       <Education />
+      <DarkModeSwitch />
     </div>
   );
 }
