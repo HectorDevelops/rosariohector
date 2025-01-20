@@ -19,7 +19,7 @@ const Home = () => {
               <span className="wave mr-2">👋🏽</span>Hi, I'm Hector.
             </h2>
             <p className="text-slate-600 py-4 max-w-xl text-center dark:text-gray-400">
-              A Junior Full Stack Software Engineer based in San Jose, CA.
+              A Full Stack Software Engineer based in San Jose, CA.
             </p>
             <div className="flex justify-center pb-4 ">
               <div className=" text-black flex justify-center gap-3 shadow-2xl ounded-2xl h-14 pl-8 pr-8 pt-1 dark:text-white dark:bg-neutral-800">
@@ -38,7 +38,7 @@ const Home = () => {
                   <AiOutlineLinkedin size={40} />
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1Ix_Vw0FTV1Rtl4IRYawOLcqfXpKuW3hN/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1PN_-qW83_QXij9XRTYaJ6ft2Lvg-1dWs/view?usp=share_link"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:scale-125 hover:text-green-600 mt-1 hover:dark:text-orange-400"

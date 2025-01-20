@@ -66,8 +66,8 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full pb-10 rounded-3xl shadow-lg bg-white dark:bg-neutral-800 dark:border dark:border-gray-600 ">
         <div className=" pt-5 text-black dark:text-white">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
-            Portfolio
+          <p className="text-4xl font-bold inline border-gray-500 ">
+            Portfolio:
           </p>
 
           <p className="py-6 text-xl">

@@ -14,6 +14,7 @@ import node from "../assets/node.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import vsc from "../assets/vsc.png";
+import java from "../assets/portfolio/java.png";
 
 const Skills = () => {
   const skillProficiency = [
@@ -92,6 +93,11 @@ const Skills = () => {
       src: vsc,
       name: "VSC",
     },
+    {
+      id: 16,
+      src: java,
+      name: "java",
+    },
   ];
 
   return (
@@ -101,8 +107,8 @@ const Skills = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col flex-wrapjustify-center w-full text-black shadow-lg rounded-2xl mb-32 bg-white pt-10 pb-10 dark:bg-neutral-800 dark:border border-gray-600 dark:text-white">
         <div className="">
-          <h2 className="text-4xl font-bold border-b-4 border-gray-500 inline">
-            Skills
+          <h2 className="text-4xl font-bold border-gray-500 inline">
+            Skills:
           </h2>
           <p className="mt-5 text-xl">
             Experience with Languages, Technologies, and Tools:
