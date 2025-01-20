@@ -63,7 +63,6 @@ const Education = () => {
           <h2 className="text-4xl font-bold border-gray-500 inline text-black dark:text-white">
             Education and Certifications:
           </h2>
-          <h1></h1>
         </div>
         <div className="">
           {educationHistory.map(
