@@ -5,7 +5,6 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
-import DarkModeSwitch from "./components/DarkModeSwitch";
 
 function App() {
   useEffect(() => {
