@@ -22,7 +22,7 @@ const About = () => {
               <p>
                 I am a passionate individual who is aspiring to build excellent
                 software that will be able to improve the lives of those around
-                me and others aroud the world.
+                me and others around the world.
                 <br />
                 In my free time, I enjoy to be active by working out, hiking,
                 running, read, improve my coding skills and training my two
